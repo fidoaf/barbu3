@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Full Screen Image</title>
+    <style>
+        /* Remove default browser margins and scrollbars */
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; 
+        }
+        
+        /* Force image to fill 100% of the viewport width and height */
+        .fullscreen-img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover; /* Crops slightly if aspect ratio differs */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="menu.png" alt="BARBU3 menu" class="fullscreen-img">
+
+</body>
+</html>
